@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+@import "common.scss";
+
+html {
+    min-width: 1100px;
+    width: 100%;
+    background-color: $smoke;
+    color: $dark;
+
+    // header
+    #header {
+        display: block;
+        .head {
+            background-color: $white;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 100vh;
+            border-radius: 0 10px 10px 0;
+            box-shadow: $shadow;
+            .header-top {
+                width: 100%;
+                margin-top: 100px;
+                display: block;
+                .gnav {
+                    width: 250px;
+                    margin: 0 auto;
+                    &__item {
+                        display: block;
+                        padding: 10px 15px;
+                        font-size: 1.4rem;
+
+                        &:not(:first-child) {
+                            margin-top: 10px;
+                        }
+
+                        .gnav__item-link {
+                            color: $dark;
+                        }
+
+                        border-radius: 25px;
+
+                        &:hover {
+                            background-color: $white;
+                            box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+                            transition: 0.3s ease-in-out;
+                            // border-bottom: 1px solid #000;
+                        }
+                    }
+
+                    .active {
+                        background-color: $darkblue;
+
+                        // color: $white;
+                        .gnav__item-link {
+                            color: $white;
+                        }
+                    }
+                }
+                @include flex;
+                flex-wrap: nowrap;
+            }
+        }
+        @include sptab {
+            display: none;
+        }
+    }
+
+    //main
+    #main {
+        @include width;
+        font-size: 1.6rem;
+
+        .main-inner {
+            width: 90%;
+            margin: 0 auto;
+
+            &__top {
+                margin-top: 100px;
+
+                .top {
+                    background-image: url(../img/mainvisual_02.svg);
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    background-size: contain;
+                    padding-bottom: 30px;
+                    border-bottom: 2px solid $white;
+                    box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3);
+
+                    .top-text {
+                        width: 60%;
+                        max-width: 800px;
+                        margin-top: 30px;
+                        padding: 20px;
+                        background-color: rgba(255, 255, 255, 0.5);
+                    }
+                }
+
+                .graph {
+                    margin-top: 30px;
+                    padding-bottom: 50px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    border-bottom: 2px solid $white;
+
+                    .graph-intro {
+                        width: 50%;
+                    }
+
+                    .graph-flexbox {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: top;
+                        margin-top: 20px;
+
+                        &__item {
+                            width: calc(100% / 3 - 1.5%);
+                            min-width: 300px;
+
+                            .box {
+                                width: 100%;
+                                box-shadow: $shadow;
+                                border-radius: 15px;
+
+                                .item-box {
+                                    padding: 10px;
+                                    margin-top: 30px; //レスポンシブ対応にしたい
+                                    background-color: $white;
+                                    border-radius: 15px;
+
+                                    .title-h3 {
+                                        margin: 0 10px;
+                                    }
+
+                                    .canvas-item {
+                                        width: 98%;
+                                        margin: 10px auto 0;
+                                        background-color: $smoke;
+                                        border-radius: 15px;
+                                    }
+
+                                    .canvas-text {
+                                        width: 98%;
+                                        padding: 10px;
+                                        margin: 20px auto 0;
+                                    }
+                                }
+
+                                .active {
+                                    background-color: $darkblue;
+                                    color: $white;
+                                }
+                            }
+                        }
+                        &__item-2 {
+                            width: calc(100% - 1.5%);
+                            min-width: 300px;
+
+                            .box {
+                                width: 100%;
+                                box-shadow: $shadow;
+                                border-radius: 15px;
+
+                                .item-box {
+                                    padding: 10px;
+                                    margin-top: 30px; //レスポンシブ対応にしたい
+                                    background-color: $white;
+                                    border-radius: 15px;
+
+                                    .title-h3 {
+                                        margin: 0 10px;
+                                    }
+
+                                    .canvas-item {
+                                        width: 98%;
+                                        margin: 10px auto 0;
+                                        background-color: $smoke;
+                                        border-radius: 15px;
+                                    }
+
+                                    .canvas-text {
+                                        width: 98%;
+                                        padding: 10px;
+                                        margin: 20px auto 0;
+                                    }
+                                }
+
+                                .active {
+                                    background-color: $darkblue;
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @include sptab {
+            min-width: auto;
+            width: 100%;
+            margin-left: 0;
+            font-size: 2rem;
+
+            .main-inner {
+                // width: 90%;
+                // margin: 0 auto;
+
+                &__top {
+                    // margin-top: 100px;
+
+                    .top {
+                        // background-image: url(../img/mainvisual_02.svg);
+                        // background-repeat: no-repeat;
+                        // background-position: right;
+                        // background-size: contain;
+                        // padding-bottom: 30px;
+                        // border-bottom: 2px solid $white;
+                        // box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3);
+
+                        .top-text {
+                            // width: 60%;
+                            // max-width: 800px;
+                            // margin-top: 30px;
+                            // padding: 20px;
+                            // background-color: rgba(255, 255, 255, 0.5);
+                        }
+                    }
+
+                    .graph {
+                        // margin-top: 30px;
+                        // padding-bottom: 50px;
+                        // width: 100%;
+                        // box-sizing: border-box;
+                        // border-bottom: 2px solid $white;
+                        // box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3);
+
+                        .graph-intro {
+                            // width: 50%;
+                        }
+
+                        .graph-flexbox {
+                            // width: 100%;
+                            // display: flex;
+                            // flex-wrap: wrap;
+                            // justify-content: space-between;
+                            // align-items: top;
+                            // margin-top: 20px;
+
+                            &__item {
+                                width: calc(100%/2  - 1.5%);
+                                @include iphone {
+                                    width: calc(100% - 1.5%);
+                                }
+                                // min-width: 300px;
+
+                                .box {
+                                    width: 100%;
+
+                                    .item-box {
+                                        padding: 15px;
+                                        margin-top: 30px; //レスポンシブ対応にしたい
+                                        background-color: $white;
+                                        border-radius: 15px;
+
+                                        .title-h3 {
+                                            margin: 0 10px;
+                                        }
+
+                                        .canvas-item {
+                                            width: 98%;
+                                            margin: 10px auto 0;
+                                            background-color: $smoke;
+                                            border-radius: 15px;
+                                        }
+
+                                        .canvas-text {
+                                            width: 98%;
+                                            padding: 10px;
+                                            margin: 20px auto 0;
+                                        }
+                                    }
+
+                                    .active {
+                                        background-color: $darkblue;
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @include iphone {
+            min-width: auto;
+            width: 100%;
+            margin-left: 0;
+            font-size: 2rem;
+
+            .main-inner {
+                // width: 90%;
+                // margin: 0 auto;
+
+                &__top {
+                    // margin-top: 100px;
+
+                    .top {
+                        // background-image: url(../img/mainvisual_02.svg);
+                        // background-repeat: no-repeat;
+                        // background-position: right;
+                        // background-size: contain;
+                        // padding-bottom: 30px;
+                        // border-bottom: 2px solid $white;
+                        // box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3);
+
+                        .top-text {
+                            // width: 60%;
+                            // max-width: 800px;
+                            // margin-top: 30px;
+                            // padding: 20px;
+                            // background-color: rgba(255, 255, 255, 0.5);
+                        }
+                    }
+
+                    .graph {
+                        // margin-top: 30px;
+                        // padding-bottom: 50px;
+                        // width: 100%;
+                        // box-sizing: border-box;
+                        // border-bottom: 2px solid $white;
+                        // box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3);
+
+                        .graph-intro {
+                            // width: 50%;
+                        }
+
+                        .graph-flexbox {
+                            // width: 100%;
+                            // display: flex;
+                            // flex-wrap: wrap;
+                            // justify-content: space-between;
+                            // align-items: top;
+                            // margin-top: 20px;
+
+                            &__item {
+                                    width: calc(100% - 1.5%);
+                                // min-width: 300px;
+
+                                .box {
+                                    width: 100%;
+
+                                    .item-box {
+                                        padding: 30px;
+                                        margin-top: 30px; //レスポンシブ対応にしたい
+                                        background-color: $white;
+                                        border-radius: 35px;
+
+                                        .title-h3 {
+                                            margin: 0 10px;
+                                        }
+
+                                        .canvas-item {
+                                            width: 98%;
+                                            margin: 10px auto 0;
+                                            background-color: $smoke;
+                                            border-radius: 35px;
+                                        }
+
+                                        .canvas-text {
+                                            width: 98%;
+                                            padding: 10px;
+                                            margin: 20px auto 0;
+                                        }
+                                    }
+
+                                    .active {
+                                        background-color: $darkblue;
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
