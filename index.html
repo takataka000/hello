@@ -1,1 +1,240 @@
-<p>hello my homepage</p>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>ヒューマンインタフェース演習｜</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keyword" content="コロナ">
+    <meta name="og:description" content="コロナ">
+    <meta property="og:description" content="コロナ">
+    <meta property="og:site_name" content="コロナ">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.japan-map.js"></script>
+    <script src="js/jquery.japan-map.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <section class="head">
+            <div class="header-top">
+                <ul class="gnav">
+                    <h2>全国</h2>
+                    <li class="gnav__item 0 active">
+                        <a href="#data0" class="gnav__item-link">
+                            <p>インターネット普及率</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 1">
+                        <a href="#data1" class="gnav__item-link">
+                            <p>年齢層別インターネット普及率</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 2">
+                        <a href="#data2" class="gnav__item-link">
+                            <p>所得層別インターネット普及率</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 3">
+                        <a href="#data3" class="gnav__item-link">
+                            <p>インターネット利用機器の状況</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 4">
+                        <a href="#data4" class="gnav__item-link">
+                            <p>通信機器の世帯保有状況</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 5">
+                        <a href="#data5" class="gnav__item-link">
+                            <p>インターネット接続回線の状況</p>
+                        </a>
+                    </li>
+                    <!-- <li class="gnav__item 6">
+                        <a href="#data6" class="gnav__item-link">
+                            <p>地域別インターネット普及率</p>
+                        </a>
+                    </li> -->
+                    <h2>都道府県別状況</h2>
+                    <li class="gnav__item 7">
+                        <a href="#data7" class="gnav__item-link">
+                            <p>インターネット普及率</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 8">
+                        <a href="#data8" class="gnav__item-link">
+                            <p>インターネット接続回線状況</p>
+                        </a>
+                    </li>
+                    <li class="gnav__item 9">
+                        <a href="#data9" class="gnav__item-link">
+                            <p>インターネット接続機器状況</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main id="main">
+        <section class="main-inner">
+            <div class="main-inner__top">
+                <div class="top">
+                    <h1>新型コロナウイルスによるオンライン化への影響</h1>
+                    <div class="top-text">
+                        <p>新型コロナウイルスの感染再拡大によって、外出の自粛を強いられている。そこで、急速にオンライン化が発展した。
+                            <br>このサイトではオンライン化の状況をチャートで見る。</p>
+                    </div>
+                </div>
+                <div class="graph">
+                    <h2>国内の現状</h2>
+                    <!-- <p class="graph-intro">説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。</p> -->
+                    <div class="graph-flexbox">
+                        <div id="data0" class="graph-flexbox__item">
+                            <div class="box">
+                                <div class="item-box 0 active">
+                                    <h3 class="title-h3">インターネット普及率</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart0"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="data1" class="graph-flexbox__item">
+                            <div class="box">
+                                <div class="item-box 1">
+                                    <h3 class="title-h3">年齢層別インターネット普及率</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart1"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="data2" class="graph-flexbox__item ">
+                            <div class="box">
+                                <div class="item-box 2">
+                                    <h3 class="title-h3">所得層別インターネット普及率</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart2"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="data3" class="graph-flexbox__item ">
+                            <div class="box">
+                                <div class="item-box 3 ">
+                                    <h3 class="title-h3">インターネット利用機器の状況</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart3"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="data4" class="graph-flexbox__item ">
+                            <div class="box">
+                                <div class="item-box 4 ">
+                                    <h3 class="title-h3">通信機器の世帯保有状況</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart4"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="data5" class="graph-flexbox__item ">
+                            <div class="box">
+                                <div class="item-box 5">
+                                    <h3 class="title-h3">インターネット接続回線の状況</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart5"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div id="data6" class="graph-flexbox__item ">
+                            <div class="box">
+                                <div class="item-box 6 ">
+                                    <h3 class="title-h3">テレワーク普及率</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart6"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="graph">
+                    <h2>都道府県別状況</h2>
+                    <!-- <p class="graph-intro">説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。</p> -->
+                    <div class="graph-flexbox">
+                        <div id="data7" class="graph-flexbox__item-2">
+                            <div class="box">
+                                <div class="item-box 7 ">
+                                    <h3 class="title-h3">ネットスーパーのユーザー数推移</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart6"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="data8" class="graph-flexbox__item-2">
+                            <div class="box">
+                                <div class="item-box">
+                                    <h3 class="title-h3">大手ECサイトのユーザー数推移</h3>
+                                    <div class="canvas-item">
+                                        <canvas id="myChart7"></canvas>
+                                    </div>
+                                    <!-- <div class="canvas-text">
+                                        <p>説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。説明をここに書く。
+                                        </p>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
