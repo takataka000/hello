@@ -3,6 +3,9 @@ html {
   width: 100%;
   background-color: #F7F7F8;
   color: #000; }
+  @media screen and (max-width: 768px) {
+    html {
+      min-width: auto; } }
   html #header {
     display: block; }
     html #header .head {
