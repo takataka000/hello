@@ -1618,7 +1618,7 @@ var myChart7 = new Chart(ctx, {
     datasets: [
       {
         label: "楽天",
-        data: [9.7,	11.5,	9.3,	11.5,	16.2,	13.3,	13.9,	2760000],
+        data: [9.7,	11.5,	9.3,	11.5,	16.2,	13.3,	13.9,	276000],
         backgroundColor: [
           "#A7D895",
           "#A7D895",
