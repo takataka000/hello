@@ -1769,7 +1769,7 @@ var myChart7 = new Chart(ctx, {
             color: 'rgba(0, 0, 0, 0.05)',
             borderDash: [6, 4],
           },
-          stacked: true,
+          stacked: false,
         },
       ],
       xAxes: [
@@ -1788,7 +1788,7 @@ var myChart7 = new Chart(ctx, {
     },
     "plugins": {
       "filler": {
-        "propagate": false
+        "propagate": true
       },
     },
     animation: {
