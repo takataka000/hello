@@ -1628,7 +1628,7 @@ var myChart7 = new Chart(ctx, {
         label: "イオン",
         data: [810000,	800000, 850000,	830000, 840000,	970000, 1300000, 1980000],
         borderColor: [
-          "#5852E5",
+          "#33A9F2",
         ],
         borderWidth: 1,
       },
