@@ -7,9 +7,6 @@ html {
     width: 100%;
     background-color: $smoke;
     color: $dark;
-    @include sptab {
-        min-width: auto;
-    }
 
     // header
     #header {
