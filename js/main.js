@@ -1715,9 +1715,8 @@ var myChart7 = new Chart(ctx, {
         {
           ticks: {
             beginAtZero: true,
-            // fontColor: '#000',
             fontSize: 10,
-            min: 500000,
+            min: 600000,
             max: 3000000,
           },
           gridLines: {
