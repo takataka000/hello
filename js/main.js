@@ -1617,8 +1617,8 @@ var myChart7 = new Chart(ctx, {
     labels: ["2019年11月", "2019年12月", "2020年1月", "2020年2月", "2020年3月", "2020年4月", "2020年5月", "2020年6月"],
     datasets: [
       {
-        label: "Amazon",
-        data: [9.7,	11.5,	9.3,	11.5,	16.2,	13.3,	13.9,	19.1,	20.2],
+        label: "楽天",
+        data: [9.7,	11.5,	9.3,	11.5,	16.2,	13.3,	13.9,	2760000],
         backgroundColor: [
           "#A7D895",
           "#A7D895",
@@ -1736,7 +1736,7 @@ var myChart7 = new Chart(ctx, {
             // fontColor: '#000',
             fontSize: 10,
             min: 0,
-            max: 1,000,000,
+            max: 1000000,
           },
           gridLines: {
             color: 'rgba(0, 0, 0, 0.05)',
