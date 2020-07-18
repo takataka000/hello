@@ -1618,7 +1618,7 @@ var myChart7 = new Chart(ctx, {
     datasets: [
       {
         label: "楽天",
-        data: [9.7,	11.5,	9.3,	11.5,	16.2,	13.3,	13.9, 2760000],
+        data: [1620000,	1530000, 1640000,	1520000, 1540000,	1570000, 1800000, 2760000],
         backgroundColor: [
           "#A7D895",
           "#A7D895",
@@ -1646,7 +1646,7 @@ var myChart7 = new Chart(ctx, {
         borderWidth: 1,
       },
       {
-        label: "楽天市場",
+        label: "イオン",
         data: [3.9,	2.9,	3.3,	3.5,	3.4,	3.3,	4.3,	7.2,	9.4],
         backgroundColor: [
           "#5852E5",
@@ -1673,7 +1673,34 @@ var myChart7 = new Chart(ctx, {
         borderWidth: 1,
       },
       {
-        label: "Yahoo",
+        label: "イトーヨーカ堂",
+        data: [3.9,	2.9,	3.3,	3.5,	3.4,	3.3,	4.3,	7.2,	9.4],
+        backgroundColor: [
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+        ],
+        borderColor: [
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+        ],
+        borderWidth: 1,
+      },
+      {
+        label: "コストコ",
         data: [3.9,	2.9,	3.3,	3.5,	3.4,	3.3,	4.3,	7.2,	9.4],
         backgroundColor: [
           "#5852E5",
@@ -1735,7 +1762,7 @@ var myChart7 = new Chart(ctx, {
             beginAtZero: true,
             // fontColor: '#000',
             fontSize: 10,
-            min: 100000,
+            min: 1000000,
             max: 3000000,
           },
           gridLines: {
