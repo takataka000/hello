@@ -1788,7 +1788,7 @@ var myChart7 = new Chart(ctx, {
     },
     "plugins": {
       "filler": {
-        "propagate": true
+        "propagate": false
       },
     },
     animation: {
