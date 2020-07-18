@@ -1,30 +1,3 @@
-//active追加
-// $(".gnav__item").on("click", function () {
-//   $(".gnav__item").removeClass("active");
-//   $(this).addClass("active");
-// });
-
-// $(document).ready(function(){
-//   $(".gnav__item").on("click", function () {
-//     $(".gnav__item").removeClass("active");
-//     $(this).addClass("active");
-//   });
-// });
-
-//addClassの挙動がおかしい
-// $(document).ready(function(){
-//   for(i=1;i<10;i++){
-//     var num1 = "." + i;
-//     $(num).on("click", function () {
-//       for(j=1;j<10;j++){
-//         var num2 = "." + j;
-//         $(num2).removeClass("active");
-//       }
-//       $(".1").addClass("active");
-//     });
-//   }
-// });
-
 //背景制御
 $(document).ready(function(){
   $(".0").on("click", function () {
