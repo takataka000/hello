@@ -1619,6 +1619,9 @@ var myChart7 = new Chart(ctx, {
       {
         label: "楽天",
         data: [1620000,	1530000, 1640000,	1520000, 1540000,	1570000, 1800000, 2760000],
+        backgroundColor: [
+          "#A7D895",
+        ],
         borderColor: [
           "#A7D895",
         ],
@@ -1627,6 +1630,9 @@ var myChart7 = new Chart(ctx, {
       {
         label: "イオン",
         data: [810000,	800000, 850000,	830000, 840000,	970000, 1300000, 1980000],
+        backgroundColor: [
+          "#33A9F2",
+        ],
         borderColor: [
           "#33A9F2",
         ],
@@ -1635,6 +1641,9 @@ var myChart7 = new Chart(ctx, {
       {
         label: "イトーヨーカ堂",
         data: [770000,	760000, 850000,	880000, 890000,	900000, 740000, 1440000],
+        backgroundColor: [
+          "#FF597A",
+        ],
         borderColor: [
           "#FF597A",
         ],
@@ -1643,6 +1652,9 @@ var myChart7 = new Chart(ctx, {
       {
         label: "コストコ",
         data: [1000000,	2600000, 1200000,	1400000, 1500000,	2100000, 2400000, 3020000],
+        backgroundColor: [
+          "#5852E5",
+        ],
         borderColor: [
           "#5852E5",
         ],
