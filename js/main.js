@@ -1736,7 +1736,7 @@ var myChart7 = new Chart(ctx, {
             // fontColor: '#000',
             fontSize: 10,
             min: 0,
-            max: 1000000,
+            max: 1,000,000,
           },
           gridLines: {
             color: 'rgba(0, 0, 0, 0.05)',
