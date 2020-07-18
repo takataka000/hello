@@ -1614,7 +1614,7 @@ ctx.canvas.height = 280;
 var myChart7 = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["平成23年", "平成24年", "平成25年", "平成26年", "平成27年", "平成28年", "平成29年", "平成30年", "令和元年"],
+    labels: ["2019年11月", "2019年12月", "2020年1月", "2020年2月", "2020年3月", "2020年4月", "2020年5月", "2020年6月"],
     datasets: [
       {
         label: "Amazon",
@@ -1736,7 +1736,7 @@ var myChart7 = new Chart(ctx, {
             // fontColor: '#000',
             fontSize: 10,
             min: 0,
-            max: 100,
+            max: 1000000,
           },
           gridLines: {
             color: 'rgba(0, 0, 0, 0.05)',
