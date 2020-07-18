@@ -132,7 +132,7 @@ html {
                   background-color: #2F2D51;
                   color: #ffffff; }
             html #main .main-inner__top .graph .graph-flexbox__item-2 {
-              width: calc(100%/2 - 1.5%);
+              width: calc(100% / 2 - 1.5%);
               min-width: 300px; }
               html #main .main-inner__top .graph .graph-flexbox__item-2 .box {
                 width: 100%;
