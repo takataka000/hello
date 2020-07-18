@@ -1397,23 +1397,15 @@ ctx.canvas.height = 280;
 var myChart6 = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["平成28年","平成29年","平成30年","令和元年","コロナ"],
+    labels: ["2019年11月", "2019年12月", "2020年1月", "2020年2月", "2020年3月", "2020年4月", "2020年5月", "2020年6月"],
     datasets: [
       {
-        label: "平成28年",
-        data: [
-          21.5,
-          20.9,
-          21.8,
-          23.8,
-          45.2
-          ],
+        label: "楽天",
+        data: [1620000,	1530000, 1640000,	1520000, 1540000,	1570000, 1800000, 2760000],
         backgroundColor: [
           "#A7D895",
-          "#72C5D9",
-          "#33A9F2",
-          "#5852E5",
-          "#FF597A",
+          "#A7D895",
+          "#A7D895",
           "#A7D895",
           "#A7D895",
           "#A7D895",
@@ -1425,19 +1417,80 @@ var myChart6 = new Chart(ctx, {
         ],
         borderWidth: 1,
       },
-      ],
+      {
+        label: "イオン",
+        data: [810000,	800000, 850000,	830000, 840000,	970000, 1300000, 1980000],
+        backgroundColor: [
+          "#33A9F2",
+          "#33A9F2",
+          "#33A9F2",
+          "#33A9F2",
+          "#33A9F2",
+          "#33A9F2",
+          "#33A9F2",
+          "#33A9F2",
+        ],
+        borderColor: [
+          "#33A9F2",
+        ],
+        borderWidth: 1,
+      },
+      {
+        label: "イトーヨーカ堂",
+        data: [770000,	760000, 850000,	880000, 890000,	900000, 740000, 1440000],
+        backgroundColor: [
+          "#FF597A",
+          "#FF597A",
+          "#FF597A",
+          "#FF597A",
+          "#FF597A",
+          "#FF597A",
+          "#FF597A",
+          "#FF597A",
+        ],
+        borderColor: [
+          "#FF597A",
+        ],
+        borderWidth: 1,
+      },
+      {
+        label: "コストコ",
+        data: [1000000,	2600000, 1200000,	1400000, 1500000,	2100000, 2400000, 3020000],
+        backgroundColor: [
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+          "#5852E5",
+        ],
+        borderColor: [
+          "#5852E5",
+        ],
+        borderWidth: 1,
+      },
+    ],
   },
   options: {
+    elements: {
+      line: {
+          tension: 0, // ベジェ曲線を無効にする
+          fill: false,
+          "stack": 1,
+        // "fill": "-1"
+      },
+  },
     layout: {
       padding: {
         top: 20,
         left: 10,
         bottom: 0,
-        right: 10
+        right: 30
       },
     },
     legend: {
-      display: false,
       position: 'bottom',
       fullWidth: true,
       labels: {
@@ -1452,15 +1505,15 @@ var myChart6 = new Chart(ctx, {
         {
           ticks: {
             beginAtZero: true,
-            fontColor: '#000',
             fontSize: 10,
-            min: 0,
-            max: 100,
+            min: 600000,
+            max: 3300000,
           },
           gridLines: {
             color: 'rgba(0, 0, 0, 0.05)',
             borderDash: [6, 4],
           },
+          stacked: false,
         },
       ],
       xAxes: [
@@ -1476,6 +1529,11 @@ var myChart6 = new Chart(ctx, {
           },
         },
       ],
+    },
+    "plugins": {
+      "filler": {
+        "propagate": true
+      },
     },
     animation: {
       duration: 2000
