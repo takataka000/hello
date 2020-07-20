@@ -1215,12 +1215,12 @@ var myChart7 = new Chart(ctx, {
 var ctx = document.getElementById("myChart9").getContext("2d");
 ctx.canvas.height = 280;
 var myChart9 = new Chart(ctx, {
-  type: "bar",
+  type: "line",
   data: {
     labels: ["平成29年","平成30年","令和元年","令和2年"],
     datasets: [
       {
-        data: [83.5, 80.9, 79.8, 89.8, 97.2],
+        data: [13.3, 13.9, 19.1, 20.2, 43.3],
         backgroundColor: ["#02CDFF", "#039EFF", "#0058FF", "#5902FF", "#8103FF"],
         borderWidth: 1,
       },
