@@ -437,16 +437,6 @@ var myChart1 = new Chart(ctx, {
     ],
   },
   options: {
-    tooltips: {
-      callbacks: {
-        label: function (tooltipItem, data) {
-          return data.labels[tooltipItem.index]
-            + ": "
-            + data.datasets[0].data[tooltipItem.index]
-            + " %"; //ここで単位を付けます
-        },
-      },
-    },
     layout: {
       padding: {
         top: 20,
@@ -650,16 +640,6 @@ var myChart2 = new Chart(ctx, {
     ],
   },
   options: {
-    tooltips: {
-      callbacks: {
-        label: function (tooltipItem, data) {
-          return data.labels[tooltipItem.index]
-            + ": "
-            + data.datasets[0].data[tooltipItem.index]
-            + " %"; //ここで単位を付けます
-        },
-      },
-    },
     layout: {
       padding: {
         top: 20,
@@ -849,16 +829,6 @@ var myChart3 = new Chart(ctx, {
     ],
   },
   options: {
-    tooltips: {
-      callbacks: {
-        label: function (tooltipItem, data) {
-          return data.labels[tooltipItem.index]
-            + ": "
-            + data.datasets[0].data[tooltipItem.index]
-            + " %"; //ここで単位を付けます
-        },
-      },
-    },
     layout: {
       padding: {
         top: 20,
@@ -1033,16 +1003,6 @@ var myChart4 = new Chart(ctx, {
     ],
   },
   options: {
-    tooltips: {
-      callbacks: {
-        label: function (tooltipItem, data) {
-          return data.labels[tooltipItem.index]
-            + ": "
-            + data.datasets[0].data[tooltipItem.index]
-            + " %"; //ここで単位を付けます
-        },
-      },
-    },
     elements: {
       line: {
           tension: 0, // ベジェ曲線を無効にする
@@ -1247,16 +1207,6 @@ var myChart5 = new Chart(ctx, {
     ],
   },
   options: {
-    tooltips: {
-      callbacks: {
-        label: function (tooltipItem, data) {
-          return data.labels[tooltipItem.index]
-            + ": "
-            + data.datasets[0].data[tooltipItem.index]
-            + " %"; //ここで単位を付けます
-        },
-      },
-    },
     elements: {
       line: {
           tension: 0, // ベジェ曲線を無効にする
