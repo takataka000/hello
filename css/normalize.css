@@ -157,6 +157,22 @@ dt {
   margin: 0;
   padding: 0;
 }
+table {
+  margin: 0;
+  padding: 0;
+}
+th {
+  margin: 0;
+  padding: 0;
+}
+td {
+  margin: 0;
+  padding: 0;
+}
+tr {
+  margin: 0;
+  padding: 0;
+}
 /* Embedded content
    ========================================================================== */
 

@@ -174,7 +174,7 @@ html {
                     margin: 0 10px; }
                   html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus {
                     width: 90%;
-                    margin: 10px auto 0; }
+                    margin: 0px auto 0; }
                 html #main .main-inner__top .graph .graph-flexbox__item-3 .box .active {
                   background-color: #2F2D51;
                   color: #ffffff; }
