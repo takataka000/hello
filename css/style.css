@@ -6,6 +6,7 @@ html {
   html #header {
     display: block; }
     html #header .head {
+      overflow: scroll;
       background-color: #ffffff;
       position: fixed;
       z-index: 1000;

@@ -12,6 +12,7 @@ html {
     #header {
         display: block;
         .head {
+            overflow: scroll; 
             background-color: $white;
             position: fixed;
             z-index: 1000;
