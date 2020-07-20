@@ -55,6 +55,7 @@ html {
                             background-color: $darkblue;
                             color: $white;
                             transition: 0.3s ease-in-out;
+                            z-index: -1;
                         }
 
                         border-radius: 25px;
