@@ -1390,6 +1390,7 @@ var myChart6 = new Chart(ctx, {
           ticks: {
             beginAtZero: true,
             fontSize: 10,
+            fontColor: '#000',
             min: 600000,
             max: 3300000,
           },
@@ -1597,6 +1598,7 @@ var myChart7 = new Chart(ctx, {
           ticks: {
             beginAtZero: true,
             fontSize: 10,
+            fontColor: '#000',
             min: 35000000,
             max: 82000000,
           },
