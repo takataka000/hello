@@ -224,7 +224,7 @@ var myChart2 = new Chart(ctx, {
       {
         label: "平成28年",
         data: [],
-        backgroundColor: ["#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF"],
+        backgroundColor: ["#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -245,7 +245,7 @@ var myChart2 = new Chart(ctx, {
           90.5,
           91.9,
         ],
-        backgroundColor: ["#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF"],
+        backgroundColor: ["#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -265,7 +265,7 @@ var myChart2 = new Chart(ctx, {
           87.8,
           89.7,
           90.3,],
-        backgroundColor: ["#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF"],
+        backgroundColor: ["#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -285,7 +285,7 @@ var myChart2 = new Chart(ctx, {
           92.7,
           93.4,
           94.5],
-        backgroundColor: ["#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF"],
+        backgroundColor: ["#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -306,14 +306,7 @@ var myChart2 = new Chart(ctx, {
           95.4,
           96.5
         ],
-        backgroundColor: [
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-        ],
+        backgroundColor: ["#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
