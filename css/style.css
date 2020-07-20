@@ -177,7 +177,8 @@ html {
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus th {
                       background-color: #F7F7F8;
                       border-radius: 100px;
-                      padding: 5px 10px; }
+                      padding: 5px 10px;
+                      margin-left: 10px; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus th:not(:first-child) {
                       margin-left: 10px; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus td {
