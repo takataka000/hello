@@ -240,6 +240,10 @@ html {
                                         }
                                         a {
                                             color: $dark;
+                                            font-size: 1.4rem;
+                                        }
+                                        a:hover {
+                                            color: $darkblue;
                                         }
                                     }
                                     // .canvas-item {
