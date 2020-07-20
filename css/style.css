@@ -59,9 +59,9 @@ html {
               transition: 0.3s ease-in-out;
               z-index: 1; }
             html #header .head .header-top .gnav__item:hover {
-              color: #ffffff;
-              -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
-              box-shadow: 0 0 9px rgba(0, 0, 0, 0.06); }
+              color: #ffffff; }
+              html #header .head .header-top .gnav__item:hover .gnav__item-link {
+                color: #ffffff; }
               html #header .head .header-top .gnav__item:hover:before {
                 width: 100%; }
           html #header .head .header-top .gnav .active {

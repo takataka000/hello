@@ -61,12 +61,15 @@ html {
                         border-radius: 25px;
 
                         &:hover {
+                            .gnav__item-link {
+                                color: $white;
+                            }
                             &:before {
                                 width: 100%;
                             }
                             // background-color: $white;
                             color: $white;
-                            box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+                            // box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
                             // transition: 0.3s ease-in-out;
                         }
                     }
