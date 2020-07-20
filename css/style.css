@@ -200,15 +200,6 @@ html {
                 html #main .main-inner__top .graph .graph-flexbox__item-3 .box .active {
                   background-color: #2F2D51;
                   color: #ffffff; }
-          html #main .main-inner__top .graph .margin {
-            background-image: url(../img/stay_home.svg);
-            background-repeat: no-repeat;
-            background-position: right;
-            background-size: contain;
-            padding-bottom: 30px;
-            border-bottom: 2px solid #ffffff;
-            -webkit-box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3);
-            box-shadow: 0px 3px 3px -3px rgba(0, 0, 0, 0.3); }
     @media screen and (max-width: 768px) {
       html #main {
         min-width: auto;
