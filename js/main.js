@@ -1389,7 +1389,7 @@ var myChart10 = new Chart(ctx, {
         boxWidth: 10,
         fontSize: 10,
         fontColor: '#000',
-        padding: 5
+        padding: 7
       },
     },
     scales: {
