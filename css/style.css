@@ -20,6 +20,7 @@ html {
       html #header .head .header-top {
         width: 100%;
         margin-top: 100px;
+        margin-bottom: 100px;
         display: block;
         display: -webkit-box;
         display: -ms-flexbox;
