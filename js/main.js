@@ -437,10 +437,10 @@ var myChart3 = new Chart(ctx, {
       {
         label: "令和2年4月",
         data: [
-          63.3,
-          50.4,
-          23.2,
-          10.5],
+          70.3,
+          60.4,
+          33.2,
+          15.5],
         backgroundColor: ["#8103FF", "#8103FF", "#8103FF", "#8103FF"],
         borderWidth: 1,
       },
