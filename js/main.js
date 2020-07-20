@@ -175,6 +175,16 @@ var myChart0 = new Chart(ctx, {
       ],
   },
   options: {
+    tooltips: {
+      callbacks: {
+        label: function (tooltipItem, data) {
+          return data.labels[tooltipItem.index]
+            + ": "
+            + data.datasets[0].data[tooltipItem.index]
+            + " %"; //ここで単位を付けます
+        },
+      },
+    },
     layout: {
       padding: {
         top: 20,
