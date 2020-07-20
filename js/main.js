@@ -1398,7 +1398,7 @@ var myChart10 = new Chart(ctx, {
             fontSize: 10,
             fontColor: '#000',
             min: 0,
-            max: 50,
+            max: 100,
           },
           gridLines: {
             color: 'rgba(0, 0, 0, 0.05)',
