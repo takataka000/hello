@@ -221,10 +221,12 @@ html {
 
                                     .campus {
                                         width: 100%;
-                                        // margin: 10px auto 0;
+                                        margin: 10px auto 0;
                                         border-collapse: separate;
                                         border-spacing: 25px 10px;
                                         color: $dark !important;
+                                        background-color: $white;
+                                        border-radius: 15px;
                                         th {
                                             background-color: $smoke;
                                             border-radius: 100px;

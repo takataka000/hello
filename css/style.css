@@ -173,9 +173,12 @@ html {
                     margin: 0 10px; }
                   html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus {
                     width: 100%;
+                    margin: 10px auto 0;
                     border-collapse: separate;
                     border-spacing: 25px 10px;
-                    color: #000 !important; }
+                    color: #000 !important;
+                    background-color: #ffffff;
+                    border-radius: 15px; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus th {
                       background-color: #F7F7F8;
                       border-radius: 100px;
