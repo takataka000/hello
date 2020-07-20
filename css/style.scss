@@ -28,6 +28,9 @@ html {
                 .gnav {
                     width: 250px;
                     margin: 0 auto;
+                    &__title {
+                        font-size: 1.6rem;
+                    }
                     &__item {
                         display: block;
                         padding: 10px 15px;
