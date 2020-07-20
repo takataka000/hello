@@ -54,9 +54,9 @@ html {
               height: 100%;
               border-radius: 50px;
               background-color: #2F2D51;
-              -webkit-transition: 0.3s ease-in-out;
-              -o-transition: 0.3s ease-in-out;
-              transition: 0.3s ease-in-out;
+              -webkit-transition: 0.25s ease-in;
+              -o-transition: 0.25s ease-in;
+              transition: 0.25s ease-in;
               z-index: -1; }
             html #header .head .header-top .gnav__item:hover {
               color: #ffffff; }

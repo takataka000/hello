@@ -54,7 +54,7 @@ html {
                             border-radius: 50px;
                             background-color: $darkblue;
                             
-                            transition: 0.3s ease-in-out;
+                            transition: 0.25s ease-in;
                             z-index: -1;
                         }
 
@@ -67,10 +67,7 @@ html {
                             &:before {
                                 width: 100%;
                             }
-                            // background-color: $white;
                             color: $white;
-                            // box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
-                            // transition: 0.3s ease-in-out;
                         }
                     }
 
