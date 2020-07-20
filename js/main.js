@@ -7,7 +7,7 @@ ctx.canvas.height = 280;
 var myChart0 = new Chart(ctx, {
   type: "bar",
   data: {
-    labels: ["平成28年","平成29年","平成30年","令和元年","令和2年4月"],
+    labels: ["平成28年","平成29年","平成30年","令和元年","令和2年"],
     datasets: [
       {
         data: [83.5, 80.9, 79.8, 89.8, 97.2],
@@ -297,7 +297,7 @@ var myChart2 = new Chart(ctx, {
         borderWidth: 1,
       },
       {
-        label: "令和2年4月",
+        label: "令和2年",
         data: [
           85.7,
           89.5,
@@ -435,7 +435,7 @@ var myChart3 = new Chart(ctx, {
         borderWidth: 1,
       },
       {
-        label: "令和2年4月",
+        label: "令和2年",
         data: [
           70.3,
           60.4,
@@ -1062,7 +1062,7 @@ ctx.canvas.height = 280;
 var myChart7 = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["2020年1月", "2020年2月", "2020年3月", "2020年4月"],
+    labels: ["2020年1月", "2020年2月", "2020年3月", "2020年"],
     datasets: [
       {
         label: "Amazon",
