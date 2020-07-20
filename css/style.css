@@ -172,15 +172,9 @@ html {
                   border-radius: 15px; }
                   html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .title-h3 {
                     margin: 0 10px; }
-                  html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .canvas-item {
-                    width: 98%;
-                    margin: 10px auto 0;
-                    background-color: #F7F7F8;
-                    border-radius: 15px; }
-                  html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .canvas-text {
-                    width: 98%;
-                    padding: 10px;
-                    margin: 20px auto 0; }
+                  html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus {
+                    width: 90%;
+                    margin: 10px auto 0; }
                 html #main .main-inner__top .graph .graph-flexbox__item-3 .box .active {
                   background-color: #2F2D51;
                   color: #ffffff; }
