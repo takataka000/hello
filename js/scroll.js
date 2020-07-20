@@ -9,6 +9,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".0").addClass("active");
     });
   });
@@ -22,6 +23,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".1").addClass("active");
     });
   });
@@ -35,6 +37,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".2").addClass("active");
     });
   });
@@ -48,6 +51,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".3").addClass("active");
     });
   });
@@ -61,6 +65,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".4").addClass("active");
     });
   });
@@ -74,6 +79,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".5").addClass("active");
     });
   });
@@ -87,6 +93,7 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".6").addClass("active");
     });
   });
@@ -100,10 +107,24 @@ $(document).ready(function(){
       $(".5").removeClass("active");
       $(".6").removeClass("active");
       $(".7").removeClass("active");
+      $(".8").removeClass("active");
       $(".7").addClass("active");
     });
   });
-  
+  $(document).ready(function(){
+    $(".8").on("click", function () {
+      $(".0").removeClass("active");
+      $(".1").removeClass("active");
+      $(".2").removeClass("active");
+      $(".3").removeClass("active");
+      $(".4").removeClass("active");
+      $(".5").removeClass("active");
+      $(".6").removeClass("active");
+      $(".7").removeClass("active");
+      $(".8").removeClass("active");
+      $(".8").addClass("active");
+    });
+  });
   
   //スムーススクロール
   $(function(){
