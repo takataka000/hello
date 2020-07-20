@@ -1209,12 +1209,12 @@ var myChart7 = new Chart(ctx, {
   },
 });
 
-//myChart9 テレワーク
+//myChart10 テレワーク
 ////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////
-var ctx = document.getElementById("myChart9").getContext("2d");
+var ctx = document.getElementById("myChart10").getContext("2d");
 ctx.canvas.height = 280;
-var myChart9 = new Chart(ctx, {
+var myChart10 = new Chart(ctx, {
   type: "line",
   data: {
     labels: ["平成29年","平成30年","令和元年","令和2年"],
@@ -1222,6 +1222,7 @@ var myChart9 = new Chart(ctx, {
       {
         data: [13.3, 13.9, 19.1, 20.2, 43.3],
         backgroundColor: ["#02CDFF", "#039EFF", "#0058FF", "#5902FF", "#8103FF"],
+        borderColor: [],
         borderWidth: 1,
       },
       ],
