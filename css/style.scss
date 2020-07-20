@@ -32,6 +32,10 @@ html {
                     margin: 0 auto;
                     &__title {
                         font-size: 2.0rem;
+                        &:not(:first-child) {
+                            border-top: 1px solid rgb(0,0,0);
+                            // box-shadow: ;
+                        }
                     }
                     &__item {
                         display: block;
