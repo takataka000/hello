@@ -224,14 +224,7 @@ var myChart2 = new Chart(ctx, {
       {
         label: "平成28年",
         data: [],
-        backgroundColor: [
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-        ],
+        backgroundColor: ["#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF", "#039EFF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -252,14 +245,7 @@ var myChart2 = new Chart(ctx, {
           90.5,
           91.9,
         ],
-        backgroundColor: [
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-        ],
+        backgroundColor: ["#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF", "#0058FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -279,14 +265,7 @@ var myChart2 = new Chart(ctx, {
           87.8,
           89.7,
           90.3,],
-        backgroundColor: [
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-        ],
+        backgroundColor: ["#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF", "#5902FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -306,14 +285,7 @@ var myChart2 = new Chart(ctx, {
           92.7,
           93.4,
           94.5],
-        backgroundColor: [
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-        ],
+        backgroundColor: ["#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF", "#8103FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
