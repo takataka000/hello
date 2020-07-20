@@ -1344,6 +1344,13 @@ var myChart10 = new Chart(ctx, {
         borderColor: ["#FF597A"],
         borderWidth: 1,
       },
+      {
+        label: "情報通信業",
+        data: [31.1, 39.9, 46.5, 73.5],
+        backgroundColor: ["#5902FF", "#5902FF", "#5902FF", "#5902FF"],
+        borderColor: ["#FF597A"],
+        borderWidth: 1,
+      },
       ],
   },
   options: {
