@@ -1245,6 +1245,14 @@ var myChart9 = new Chart(ctx, {
         right: 10
       },
     },
+    elements: {
+      line: {
+          tension: 0, // ベジェ曲線を無効にする
+          fill: false,
+          "stack": 1,
+        // "fill": "-1"
+      },
+  },
     legend: {
       display: false,
       position: 'bottom',
@@ -1264,7 +1272,7 @@ var myChart9 = new Chart(ctx, {
             fontColor: '#000',
             fontSize: 10,
             min: 0,
-            max: 100,
+            max: 50,
           },
           gridLines: {
             color: 'rgba(0, 0, 0, 0.05)',
