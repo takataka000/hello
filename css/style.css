@@ -158,7 +158,6 @@ html {
                   background-color: #2F2D51;
                   color: #ffffff; }
             html #main .main-inner__top .graph .graph-flexbox__item-3 {
-              width: calc(100% / 1.5 - 1.5%);
               min-width: 300px; }
               html #main .main-inner__top .graph .graph-flexbox__item-3 .box {
                 width: 100%;
