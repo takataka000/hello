@@ -516,7 +516,7 @@ ctx.canvas.height = 280;
 var myChart4 = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["平成22年", "平成23年", "平成24年", "平成25年", "平成26年", "平成27年","平成28年", "平成29年", "平成30年", "令和元年", "令和2年"],
+    labels: ["平成23年", "平成24年", "平成25年", "平成26年", "平成27年","平成28年", "平成29年", "平成30年", "令和元年", "令和2年"],
     datasets: [
       {
         label: "固定電話",
@@ -913,6 +913,16 @@ var myChart6 = new Chart(ctx, {
     ],
   },
   options: {
+    tooltips: {
+      callbacks: {
+        label: function (tooltipItem, data) {
+          return data.labels[tooltipItem.index]
+            + ": "
+            + data.datasets[0].data[tooltipItem.index]
+            + " 人";
+        },
+      },
+    },
     elements: {
       line: {
           tension: 0, // ベジェ曲線を無効にする
@@ -1062,7 +1072,7 @@ ctx.canvas.height = 280;
 var myChart7 = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["2020年1月", "2020年2月", "2020年3月", "2020年"],
+    labels: ["2020年1月", "2020年2月", "2020年3月", "2020年4月"],
     datasets: [
       {
         label: "Amazon",
