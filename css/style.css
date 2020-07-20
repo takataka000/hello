@@ -174,13 +174,13 @@ html {
                   html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus {
                     width: 100%;
                     margin: 10px auto 0;
+                    border-collapse: separate;
+                    border-spacing: 10px;
                     color: #000 !important; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus th {
                       background-color: #F7F7F8;
                       border-radius: 100px;
-                      padding: 5px 10px;
-                      border-collapse: separate;
-                      border-spacing: 10px; }
+                      padding: 5px 10px; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus td {
                       text-align: center;
                       background-color: #F7F7F8;

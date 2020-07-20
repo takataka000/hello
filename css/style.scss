@@ -222,13 +222,13 @@ html {
                                     .campus {
                                         width: 100%;
                                         margin: 10px auto 0;
+                                        border-collapse: separate;
+                                        border-spacing: 10px;
                                         color: $dark !important;
                                         th {
                                             background-color: $smoke;
                                             border-radius: 100px;
                                             padding: 5px 10px;
-                                            border-collapse: separate;
-                                            border-spacing: 10px;
                                         }
                                         td {
                                             text-align: center;
