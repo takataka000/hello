@@ -1209,6 +1209,89 @@ var myChart7 = new Chart(ctx, {
   },
 });
 
+//myChart9 テレワーク実施状況
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+var ctx = document.getElementById("myChart9").getContext("2d");
+ctx.canvas.height = 280;
+var myChart9 = new Chart(ctx, {
+  type: "bar",
+  data: {
+    labels: ["平成29年","平成30年","令和元年","令和2年"],
+    datasets: [
+      {
+        data: [13.9, 19.1, 20.2, 43.3],
+        backgroundColor: ["#039EFF", "#0058FF", "#5902FF", "#8103FF"],
+        borderWidth: 1,
+      },
+      ],
+  },
+  options: {
+    tooltips: {
+      callbacks: {
+        label: function (tooltipItem, data) {
+          return data.labels[tooltipItem.index]
+            + ": "
+            + data.datasets[0].data[tooltipItem.index]
+            + " %";
+        },
+      },
+    },
+    layout: {
+      padding: {
+        top: 20,
+        left: 10,
+        bottom: 0,
+        right: 10
+      },
+    },
+    legend: {
+      display: false,
+      position: 'bottom',
+      fullWidth: true,
+      labels: {
+        boxWidth: 10,
+        fontSize: 10,
+        fontColor: '#000',
+        padding: 10
+      },
+    },
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            fontColor: '#000',
+            fontSize: 10,
+            min: 0,
+            max: 100,
+          },
+          gridLines: {
+            color: 'rgba(0, 0, 0, 0.05)',
+            borderDash: [6, 4],
+          },
+        },
+      ],
+      xAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            fontColor: '#000',
+            fontSize: 10,
+          },
+          gridLines: {
+            display: false,
+            color: 'rgba(0, 0, 0, 0.05)'
+          },
+        },
+      ],
+    },
+    animation: {
+      duration: 2000
+    },
+  },
+});
+
 //myChart10 テレワーク
 ////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////
