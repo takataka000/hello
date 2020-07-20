@@ -38,7 +38,7 @@ html {
           html #header .head .header-top .gnav__title {
             font-size: 2.0rem; }
             html #header .head .header-top .gnav__title:not(:first-child) {
-              border-top: 2px solid black; }
+              border-top: 2px solid #F7F7F8; }
           html #header .head .header-top .gnav__item {
             display: block;
             padding: 10px 15px;
