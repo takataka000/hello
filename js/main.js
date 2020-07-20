@@ -1220,6 +1220,7 @@ var myChart10 = new Chart(ctx, {
     labels: ["平成29年","平成30年","令和元年","令和2年"],
     datasets: [
       {
+        label: "建設業",
         data: [13.3, 13.9, 19.1, 20.2, 43.3],
         backgroundColor: ["#02CDFF", "#039EFF", "#0058FF", "#5902FF", "#8103FF"],
         borderColor: [],
