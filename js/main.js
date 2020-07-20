@@ -1347,8 +1347,8 @@ var myChart10 = new Chart(ctx, {
       {
         label: "情報通信業",
         data: [31.1, 39.9, 46.5, 73.5],
-        backgroundColor: ["#FF597A", "#FF597A", "#FF597A", "#FF597A"],
-        borderColor: ["#FF597A"],
+        backgroundColor: ["#8103FF", "#8103FF", "#8103FF", "#8103FF"],
+        borderColor: ["#8103FF"],
         borderWidth: 1,
       },
       ],
