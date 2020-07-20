@@ -1304,28 +1304,28 @@ var myChart10 = new Chart(ctx, {
     datasets: [
       {
         label: "建設業",
-        data: [13.3, 13.9, 19.1, 20.2, 43.3],
+        data: [12.2, 18.8, 22.5, 37.9],
         backgroundColor: ["#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF"],
         borderColor: ["#02CDFF"],
         borderWidth: 1,
       },
       {
         label: "製造業",
-        data: [13.3, 13.9, 19.1, 20.2, 43.3],
+        data: [13.0, 20.8, 21.1, 44.0],
         backgroundColor: ["#039EFF", "#039EFF", "#039EFF", "#039EFF"],
         borderColor: ["#039EFF"],
         borderWidth: 1,
       },
       {
         label: "運輸・郵便業",
-        data: [13.3, 13.9, 19.1, 20.2, 43.3],
+        data: [7.7, 8.7, 11.7, 20.3],
         backgroundColor: ["#0058FF", "#0058FF", "#0058FF", "#0058FF"],
         borderColor: ["#0058FF"],
         borderWidth: 1,
       },
       {
         label: "卸売・小売業",
-        data: [13.3, 13.9, 19.1, 20.2, 43.3],
+        data: [13.3, 13.4, 20.1, 20.1, 32.5],
         backgroundColor: ["#5902FF", "#5902FF", "#5902FF", "#5902FF"],
         borderColor: ["#5902FF"],
         borderWidth: 1,
