@@ -23,7 +23,7 @@ var myChart0 = new Chart(ctx, {
           return data.labels[tooltipItem.index]
             + ": "
             + data.datasets[0].data[tooltipItem.index]
-            + " %"; //ここで単位を付けます
+            + " %";
         },
       },
     },
@@ -137,7 +137,7 @@ var myChart1 = new Chart(ctx, {
         borderWidth: 1,
       },
       {
-        label: "コロナ",
+        label: "令和2年４月",
         data: [
           85.5,
           85.6,
@@ -297,7 +297,7 @@ var myChart2 = new Chart(ctx, {
         borderWidth: 1,
       },
       {
-        label: "コロナ",
+        label: "令和2年4月",
         data: [
           85.7,
           89.5,
@@ -393,18 +393,7 @@ var myChart3 = new Chart(ctx, {
           58.6,
           23.6,
           13.3],
-        backgroundColor: [
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-          "#A7D895",
-        ],
+        backgroundColor: ["#02CDFF", "#02CDFF", "#02CDFF", "#02CDFF"],
         borderWidth: 1,
       },
       {
@@ -414,18 +403,7 @@ var myChart3 = new Chart(ctx, {
           52.5,
           20.9,
           9.9],
-        backgroundColor: [
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-          "#72C5D9",
-        ],
+        backgroundColor: ["#039EFF", "#039EFF", "#039EFF", "#039EFF"],
         borderWidth: 1,
       },
       {
@@ -435,18 +413,7 @@ var myChart3 = new Chart(ctx, {
           48.2,
           20.8,
           8.8],
-        backgroundColor: [
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-          "#33A9F2",
-        ],
+        backgroundColor: ["#0058FF", "#0058FF", "#0058FF", "#0058FF"],
         borderWidth: 1,
       },
       {
@@ -456,18 +423,7 @@ var myChart3 = new Chart(ctx, {
           50.4,
           23.2,
           10.5],
-        backgroundColor: [
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-          "#5852E5",
-        ],
+        backgroundColor: ["#5902FF", "#5902FF", "#5902FF", "#5902FF"],
         // borderColor: [
         //   "rgba(255, 99, 132, 1)",
         //   "rgba(54, 162, 235, 1)",
@@ -476,6 +432,16 @@ var myChart3 = new Chart(ctx, {
         //   "rgba(153, 102, 255, 1)",
         //   "rgba(255, 159, 64, 1)",
         // ],
+        borderWidth: 1,
+      },
+      {
+        label: "令和2年4月",
+        data: [
+          63.3,
+          50.4,
+          23.2,
+          10.5],
+        backgroundColor: ["#8103FF", "#8103FF", "#8103FF", "#8103FF"],
         borderWidth: 1,
       },
     ],
