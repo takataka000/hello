@@ -35,6 +35,7 @@ html {
                         display: block;
                         padding: 10px 15px;
                         font-size: 1.4rem;
+                        position: relative;
 
                         &:not(:first-child) {
                             margin-top: 10px;
@@ -43,21 +44,33 @@ html {
                         .gnav__item-link {
                             color: $dark;
                         }
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 0%;
+                            height: 100%;
+                            background-color: $darkblue;
+                            color: $white;
+                            transition: 0.3s ease-in-out;
+                        }
 
                         border-radius: 25px;
 
                         &:hover {
+                            &:before {
+                                width: 100%;
+                            }
                             background-color: $white;
                             box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
-                            transition: 0.3s ease-in-out;
-                            // border-bottom: 1px solid #000;
+                            // transition: 0.3s ease-in-out;
                         }
                     }
 
                     .active {
                         background-color: $darkblue;
 
-                        // color: $white;
                         .gnav__item-link {
                             color: $white;
                         }

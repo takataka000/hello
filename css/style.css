@@ -39,18 +39,30 @@ html {
             display: block;
             padding: 10px 15px;
             font-size: 1.4rem;
+            position: relative;
             border-radius: 25px; }
             html #header .head .header-top .gnav__item:not(:first-child) {
               margin-top: 10px; }
             html #header .head .header-top .gnav__item .gnav__item-link {
               color: #000; }
-            html #header .head .header-top .gnav__item:hover {
-              background-color: #ffffff;
-              -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
-              box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+            html #header .head .header-top .gnav__item:before {
+              content: '';
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 0%;
+              height: 100%;
+              background-color: #2F2D51;
+              color: #ffffff;
               -webkit-transition: 0.3s ease-in-out;
               -o-transition: 0.3s ease-in-out;
               transition: 0.3s ease-in-out; }
+            html #header .head .header-top .gnav__item:hover {
+              background-color: #ffffff;
+              -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+              box-shadow: 0 0 9px rgba(0, 0, 0, 0.06); }
+              html #header .head .header-top .gnav__item:hover:before {
+                width: 100%; }
           html #header .head .header-top .gnav .active {
             background-color: #2F2D51; }
             html #header .head .header-top .gnav .active .gnav__item-link {
