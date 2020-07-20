@@ -227,11 +227,17 @@ html {
                                             border-radius: 100px;
                                             padding: 5px 10px;
                                         }
+                                        th:not(:first-child) {
+                                            margin-left: 10px;
+                                        }
                                         td {
                                             text-align: center;
                                             background-color: $smoke;
                                             border-radius: 50px;
                                             padding: 5px 10px;
+                                        }
+                                        td:not(:first-child) {
+                                            margin-left: 10px;
                                         }
                                     }
                                     // .canvas-item {
