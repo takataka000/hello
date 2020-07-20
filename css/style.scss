@@ -222,8 +222,12 @@ html {
                                     .campus {
                                         width: 100%;
                                         margin: 10px auto 0;
+                                        th {
+                                            background-color: $smoke;
+                                        }
                                         td {
                                             text-align: center;
+                                            background-color: $smoke;
                                         }
                                     }
                                     // .canvas-item {

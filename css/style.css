@@ -174,8 +174,11 @@ html {
                   html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus {
                     width: 100%;
                     margin: 10px auto 0; }
+                    html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus th {
+                      background-color: #F7F7F8; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus td {
-                      text-align: center; }
+                      text-align: center;
+                      background-color: #F7F7F8; }
                 html #main .main-inner__top .graph .graph-flexbox__item-3 .box .active {
                   background-color: #2F2D51;
                   color: #ffffff; }
