@@ -175,7 +175,7 @@ html {
                     width: 100%;
                     margin: 10px auto 0;
                     border-collapse: separate;
-                    border-spacing: 10px;
+                    border-spacing: 10px 20px;
                     color: #000 !important; }
                     html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .campus th {
                       background-color: #F7F7F8;
