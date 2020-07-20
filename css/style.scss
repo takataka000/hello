@@ -224,12 +224,14 @@ html {
                                         margin: 10px auto 0;
                                         th {
                                             background-color: $smoke;
-                                            border-radius: 50px;
+                                            border-radius: 100px;
+                                            padding: 5px 10px;
                                         }
                                         td {
                                             text-align: center;
                                             background-color: $smoke;
                                             border-radius: 50px;
+                                            padding: 5px 10px;
                                         }
                                     }
                                     // .canvas-item {
