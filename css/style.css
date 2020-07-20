@@ -157,6 +157,33 @@ html {
                 html #main .main-inner__top .graph .graph-flexbox__item-2 .box .active {
                   background-color: #2F2D51;
                   color: #ffffff; }
+            html #main .main-inner__top .graph .graph-flexbox__item-3 {
+              width: calc(100% / 2 - 1.5%);
+              min-width: 300px; }
+              html #main .main-inner__top .graph .graph-flexbox__item-3 .box {
+                width: 100%;
+                -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.01);
+                box-shadow: 0 0 9px rgba(0, 0, 0, 0.01);
+                border-radius: 15px; }
+                html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box {
+                  padding: 10px;
+                  margin-top: 30px;
+                  background-color: #ffffff;
+                  border-radius: 15px; }
+                  html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .title-h3 {
+                    margin: 0 10px; }
+                  html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .canvas-item {
+                    width: 98%;
+                    margin: 10px auto 0;
+                    background-color: #F7F7F8;
+                    border-radius: 15px; }
+                  html #main .main-inner__top .graph .graph-flexbox__item-3 .box .item-box .canvas-text {
+                    width: 98%;
+                    padding: 10px;
+                    margin: 20px auto 0; }
+                html #main .main-inner__top .graph .graph-flexbox__item-3 .box .active {
+                  background-color: #2F2D51;
+                  color: #ffffff; }
     @media screen and (max-width: 768px) {
       html #main {
         min-width: auto;
