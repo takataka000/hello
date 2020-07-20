@@ -1121,6 +1121,16 @@ var myChart7 = new Chart(ctx, {
     ],
   },
   options: {
+    tooltips: {
+      callbacks: {
+        label: function (tooltipItem, data) {
+          return data.labels[tooltipItem.index]
+            + ": "
+            + data.datasets[0].data[tooltipItem.index]
+            + " 人";
+        },
+      },
+    },
     elements: {
       line: {
           tension: 0, // ベジェ曲線を無効にする
