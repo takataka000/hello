@@ -105,7 +105,7 @@ html {
           box-sizing: border-box;
           border-bottom: 2px solid #ffffff; }
           html #main .main-inner__top .graph .graph-intro {
-            width: 70%; }
+            width: 60%; }
           html #main .main-inner__top .graph .graph-flexbox {
             width: 100%;
             display: -webkit-box;
